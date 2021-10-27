@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheet/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+   <title>login</title>
+</head>
+
+<body>
+    <header class="encabezado">
+        <section class="logo-busquda-compra">
+            <img class= "logo" src="/images/logo-mercado-liebre.svg" alt= "Logo Mercado Libre">
+
+            <div class="barra-busqueda">
+                <input type="barra-busqueda" placehoder= "Busqueda de productos" />
+                <button> <i id= "buscar" class="fas fa-search"></i> </button>  
+
+            </div>
+             <a class= "sin-cuotas"><i class="fas fa-hand-holding-usd"></i> Comprá en cuotas y sin tarjeta de crédito</a>
+        </section>
+        <section>
+            <nav class="menu">
+                <ul class ="lista" > 
+                    <li><a href="#"> Ofertas </a> </li> 
+                    <li><a href="#"> Tiendas Oficiales </a></li>
+                    <li><a href="#">Vender</a></li>
+                    <li><a href="#">Ayuda</a></li>     
+                </ul>
+                <!-- <a href=""class= "burger-menu"> <i class="fas fa-bars"></i></a> -->
+                <ul class ="lista" >
+                    <li><a href="#">Creá tu cuenta</a> <i class="far fa-address-card"></i></li> 
+                    <li><a href="#">Ingresá</a> <i class="fas fa-sign-in-alt"></i></li> 
+                    <li><a href="#">Mis compras</a> <i class="fas fa-shopping-basket"></i></li> 
+                </ul> 
+            </nav>
+        </section>
+    </header>
+
+    <main>
+        <div class= "contenedor-login">
+            <form action = "/" method="#">
+            <label for= "usuario">
+                <input type = "text" name= "usuario" id="usuario" placeholder= "Nombre de usuario">
+            </label>
+            <br>
+            <label for= "password">
+                <input type = "password" name= "password"id="password" placeholder= "Ingresá tu contraseña">    
+            </label>
+            <br>
+            <label for= "ingresar">
+                <a href= "home.html"class= "enter"><button type= "submit" id="login"><div id= "textologin">Enviar</div></button>
+            </a> </label>
+            </form>
+        </div>
+    </main>
+</body>
+
+<footer>
+        <section class= "footer">
+            <div>
+                <i class="fas fa-gift"></i>
+                <i class="fas fa-credit-card"></i>
+                <i class="fas fa-user-shield"></i>
+            </div>
+            <div class= "title-footer">
+                <h4 class="titulos-de-pagina"> Pagá con tarjeta o en efectivo </h4>
+                <h4 class="titulos-de-pagina"> Envío gratis desde $ 2.500 </h4>
+                <h4 class="titulos-de-pagina"> Seguridad, de principio a fin </h4>   
+            </div>
+            <div class= "footer-description">
+                <p class= "descripcion-pie"> Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+                puntos de pago. ¡Y siempre es seguro! 
+                </p>
+                <p class= "descripcion-pie"> Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+                    productos. Es un beneficio de Mercado Puntos. 
+                </p>
+                <p class= "descripcion-pie"> ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+                    porque estás siempre protegid@. 
+                </p>
+            </div>
+            <h4 class="copyright"> Copyright © 1999-2020 MercadoLiebre S.R.L. </h4>
+        </section>   
+    </footer>
+    </html>
